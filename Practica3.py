@@ -23,7 +23,7 @@ def agregar_clave_valor_route(clave, valor):
     return jsonify(diccionario)
 
 
-# 3-.Ruta para eliminar una clave del diccionario
+# 3-.Eliminar una clave del diccionario
 #3.http://localhost:5000/eliminar_clave/edad
 @app.route('/eliminar_clave/<string:clave>', methods=['GET'])
 def eliminar_clave(clave):
@@ -34,7 +34,7 @@ def eliminar_clave(clave):
         return 'La clave no existe en el diccionario', 404
 
 
-# 4-.Ruta para modificar el valor de una clave en el diccionario
+# 4-.Modificar el valor de una clave en el diccionario
 # 4.http://localhost:5000/modificar_valor/edad/22
 @app.route('/modificar_valor/<string:clave>/<string:nuevo_valor>', methods=['GET'])
 def modificar_valor(clave, nuevo_valor):
