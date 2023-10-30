@@ -15,19 +15,20 @@
    - URL: [http://localhost:5000/combinar_diccionarios?diccionario2={"eryon":"velasco"}](http://localhost:5000/combinar_diccionarios?diccionario2={"eryon":"velasco"})
 
 6. **Agregar un elemento a un conjunto**
-   - URL: [http://localhost:5000/agregar_elemento_conjunto/nuevo_elemento?conjunto=["Primer_elemento", "Segundo_Elemento"](http://localhost:5000/agregar_elemento_conjunto/nuevo_elemento?conjunto=["Primer_elemento","Segundo_Elemento"])
+   - URL: [http://localhost:5000/agregar_elemento_conjunto/nuevo_elemento?conjunto=["Primer_elemento", "Segundo_Elemento"]
 
 7. **Eliminar un elemento de un conjunto**: Elimina un elemento de un conjunto.
-   - URL: [http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"]      (http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"])
+   - URL: [http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"]      
 
-8. **Combinar dos conjuntos**
-   - URL: `[Combinar dos conjuntos](http://localhost:5000/combinar_conjuntos?conjunto1=["Primer_elemento", "Segundo_Elemento"]&conjunto2=["Tercer_Elemento", "Cuarto_Elemento"])`
+8. **Combinar dos conjuntos**: Combina dos conjuntos.
+   - URL: [http://localhost:5000/combinar_conjuntos?conjunto1=["Primer_elemento", "Segundo_Elemento"]&conjunto2=["Tercer_Elemento", "Cuarto_Elemento"]
 
-9. **Obtener la diferencia entre dos conjuntos**
-   - URL: `[Obtener la diferencia entre dos conjuntos](http://localhost:5000/diferencia_entre_conjuntos?conjunto1=["Primer_elemento", "Segundo_Elemento", "Tercer_Elemento"]&conjunto2=["Segundo_Elemento", "Tercer_Elemento", "Cuarto_Elemento"])`
+9. **Obtener la diferencia entre dos conjuntos**: Obtiene la diferencia entre dos conjuntos.
+   - URL: [http://localhost:5000/diferencia_entre_conjuntos?conjunto1=["Primer_elemento", "Segundo_Elemento", "Tercer_Elemento"]&conjunto2=["Segundo_Elemento", "Tercer_Elemento", "Cuarto_Elemento"]
+  
 
-10. **Agregar un elemento a una tupla y crear una nueva tupla**
-    - URL: `[Agregar un elemento a una tupla y crear una nueva tupla](http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4])`
+10. **Agregar un elemento a una tupla y crear una nueva tupla**: Agrega un elemento a una tupla y crea una nueva tupla.
+    - URL: [http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4](http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4])
 
 
 11. **Eliminar un elemento de una tupla y crear una nueva tupla**
