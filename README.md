@@ -17,8 +17,8 @@
 6. **Agregar un elemento a un conjunto**
    - URL: [http://localhost:5000/agregar_elemento_conjunto/nuevo_elemento?conjunto=["Primer_elemento", "Segundo_Elemento"](http://localhost:5000/agregar_elemento_conjunto/nuevo_elemento?conjunto=["Primer_elemento","Segundo_Elemento"])
 
-7. **Eliminar un elemento de un conjunto**:
-   - URL: `[Eliminar un elemento de un conjunto](http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"])`
+7. **Eliminar un elemento de un conjunto**: Elimina un elemento de un conjunto.
+   - URL: [http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"]      (http://localhost:5000/eliminar_elemento_conjunto/elemento_a_eliminar?conjunto=["Primer_elemento", "Segundo_Elemento", "elemento_a_eliminar"])
 
 8. **Combinar dos conjuntos**
    - URL: `[Combinar dos conjuntos](http://localhost:5000/combinar_conjuntos?conjunto1=["Primer_elemento", "Segundo_Elemento"]&conjunto2=["Tercer_Elemento", "Cuarto_Elemento"])`
