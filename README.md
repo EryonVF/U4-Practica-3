@@ -28,7 +28,7 @@
   
 
 10. **Agregar un elemento a una tupla y crear una nueva tupla**: Agrega un elemento a una tupla y crea una nueva tupla.
-    - URL: [http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4](http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4])]
+    - URL: [http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4]](http://localhost:5000/agregar_elemento_tupla/5/[1, 2, 3, 4])
 
 
 11. **Eliminar un elemento de una tupla y crear una nueva tupla**
